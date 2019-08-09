@@ -22,10 +22,8 @@ $(document).ready(() => {
     if (e.which === 13) {
       var todoText = $(this).val();
       $(this).val("");
-      $('ul').append("<li>X<span> " + todoText + " </span></li>")
+      $('ul').append("<li><span> <i class='fa fa-trash'></i></span> " + todoText + "</li>")
     }
-
-
   });
 
 

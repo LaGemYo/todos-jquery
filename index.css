@@ -37,6 +37,23 @@ li:nth-child(2n){
   background: #f7f7f7;
 }
 
+span {
+  background: #e74c3c;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+  transition: 0.5s linear;
+  opacity: 0;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1.0;
+}
+
 input {
   font-size: 18px;
   color: #2980b9;
@@ -44,6 +61,7 @@ input {
   width: 100%;
   padding: 13px 13px 13px;
   box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
 }
 
 input:focus {
