@@ -3,7 +3,6 @@ import $ from "jquery";
 // Import stylesheets
 import './index.css';
 
-
 $(document).ready(() => {
   //Check off specific todos by clicking
   $("ul").on('click', "li", function () {
