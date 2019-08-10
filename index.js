@@ -9,8 +9,8 @@ $(document).ready(() => {
     $(this).toggleClass('completed')
   });
 
-  //Click on X to delete todos
-  $("span").on('click', "li", function (e) {
+  //Click on trash to delete todos
+  $(document).on('click', "span", function (e) {
     $(this).parent().fadeOut(500, function () {
       $(this).remove();
     });
@@ -26,12 +26,10 @@ $(document).ready(() => {
     }
   });
 
-
-
-
-
-
-
+  //Show input add todos when pressing "+"icon
+  $(".fa-plus").click(function () {
+    $("input[type='text']").fadeToggle();
+  })
 });
 
 
