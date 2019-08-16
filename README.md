@@ -1,8 +1,4 @@
 # To-Do List Project
-Este es un ligero ejercicio para practicar jquery y estilos.
-
-Consiste en una pequeña erramienta que permite añadir tus tareas pendientes, tacharlas y/o eliminarlas cuando estén completadas.
-_______________________________________________________________________________________________________________________
 
 This is a light exercise to practice jquery and styles.
 
